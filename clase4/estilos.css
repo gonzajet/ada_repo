@@ -1,0 +1,26 @@
+div p {
+    color: rgb(0,0,255) 
+}
+
+div > p {
+    color: yellow;
+}
+
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    background-color: yellow;
+    text-align: center;
+    line-height: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+  
+
+  
