@@ -1,0 +1,22 @@
+.claseDiv {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 300px;
+
+}
+
+body {
+    background-color: gray;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin: 50px 0 0 50px;
+}
+
+h2, p, button {
+    margin-left: 50px;
+}
