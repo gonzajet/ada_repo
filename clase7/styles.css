@@ -5,15 +5,27 @@ body, html {
     margin: 0 10px;
 }
 
+/* .divIcono {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+} */
+
+.icono {
+    width: 30px;
+    height: 30px;
+}
+
 main {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .boxes {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box1,
@@ -22,9 +34,10 @@ main {
     display: flex;
     height: 200px;
     width: 200px;
-    background: orange;
+    background-color: orange;
     color: white;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
 }
 
