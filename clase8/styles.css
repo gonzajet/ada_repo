@@ -5,18 +5,21 @@ body, html {
     margin: 0 10px;
 }
 
-/* main {
+main {
     height: 100%;
-    display: flex;
-} */
+}
 
 .boxes {
     display: flex;
+    /* justify-content: center; */
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: blue;
 }
 
-.box1,
-.box2,
-.box3 {
+.box {
     display: flex;
     height: 100px;
     width: 200px;
@@ -24,29 +27,43 @@ body, html {
     color: white;
     justify-content: center;
     align-items: center;
-    margin: 0 10px;
+    margin: 10px 10px;
+}
+
+.box1 {
+    flex-basis: 300px;
+}
+
+.box2 {
+    flex-basis: 500px;
 }
 
 /* default 0 */
 /* .box1 {
-    flex-grow: 1; 
+    flex-grow: 2; 
 }
 
-.box2 {
-    flex-grow: 2;
+
+
+.box3 {
+    flex-grow: 4;
 } */
 
 /* default 1 */
-.box1 {
-    flex-shrink: 1.5;
+/* .box1 {
+    flex-shrink: 10;
 }
 
 .box2 {
-    flex-shrink: 1.6;
+    flex-shrink: 5;
 }
 
+.box3 {
+    flex-shrink: 2;
+} */
+
 /* .box1 {
-    align-self: center;
+    align-self: flex-start;
 }
 
 .box2 {
@@ -67,5 +84,9 @@ body, html {
 
 .box3 {
     order: 4;
+}
+
+.box4 {
+    order: 2;
 } */
 

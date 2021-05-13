@@ -1,0 +1,53 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+body {
+    display: flex;
+}
+
+.panelIzquierdo {
+    height: 100%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+main {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(243, 217, 221, 0.794);
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    background-color: purple;
+}
+
+.displayFlexYCentrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 100%;
+}
+
+footer {
+    height: 60px;
+    background-color: purple;
+}
