@@ -1,0 +1,84 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+main {
+    height: 100%;
+}
+
+.centrarCard {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.cardHeader {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.textosEnColumna {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 8px;
+    justify-content: center;
+    width: 100%;
+}
+
+figure,
+p {
+    margin: 0;
+}
+
+.cardBody {
+    margin: 15px 0;
+}
+
+.bodyText {
+    letter-spacing: 1px;
+}
+
+.fecha {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.cardFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.margin {
+    margin: 0 6px;
+}
+
+hr {
+    margin: 20px 0;
+}
