@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0;
+  font: 24px arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: teal;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 300px;
+  background: PeachPuff;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: 300px;
+  background: MediumAquamarine;
+}
+
+p {
+  font-size: 13px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar,
+  .content {
+    width: auto;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  body {
+    background-color: tomato;
+  }
+
+  .noSeVe {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sidebar,
+  .content {
+    width: auto;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  body {
+    background-color: blue;
+  }
+}
