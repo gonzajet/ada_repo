@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo relativos</title>
+    <link href="styles.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <div class="important">
+        El tamaño de fuente base de cada elemento padre es <code>20px</code> en este ejemplo:
+    </div>
+    <div class="em">
+      <h1>EM</h1>
+      <div>
+        <p>
+          <code>1em</code> utilizará el tamaño de la fuente del elemento padre. En este caso, es <code>20px</code> como se hereda de la clase padre
+          <code>.em</code>
+        </p>
+        <p>
+          <span
+            ><code>1.2em</code> sera igual a 1.2 x el tamaño de fuente del padre
+            <code>(1.2 x 20px = 24px)</code></span
+          >
+        </p>
+      </div>
+    </div>
+    <div class="rem">
+      <h1>REM</h1>
+      <div>
+        <p>
+          <code>1rem</code> siempre será igual al tamaño de la fuente base del
+          <code>html</code> que es el elemento por defecto del navegador a menos que se especifique lo contrario.
+           (por ejemplo, por el usuario a través de la configuración de accesibilidad o en su css). Esto significa que ignora los
+          <code>20px</code> del tamaño de fuente del padre.
+        </p>
+        <p>
+          <span
+            ><code>1.2rem</code> siempre será igual a 1,2 veces el tamaño de la fuente del elemento
+            <code>html</code> (el default del navegador es de
+            <code>16px</code> a menos que se especifique lo contrario)
+            <code>(1.2 x 16px = 19.2px)</code></span>
+        </p>
+      </div>
+    </div>
+    <figcaption>
+      <img src="./test.jpg" alt="naturaleza"/>
+    </figcaption>
+  </body>
+</html>

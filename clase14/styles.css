@@ -1,0 +1,92 @@
+html {
+    /* Este es el tamaño por defecto del navegador, cambiar esto sólo afectará a los tamaños de fuente REM */
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px; 
+}
+
+body {
+    margin: 0;
+    font-family: arial;
+    background-color: darken(white, 5%);
+}
+  
+h1 {
+      /* Actúa en relación con el nuevo tamaño del body a 20px (2 * 20px = 40px) */
+    font-size: 2em 
+  }
+p {
+    font-size: 1em;
+
+}
+span {
+    font-size: 1.2em;
+}
+
+code {
+    font-size: .8em;
+}
+
+/* REM */
+/* Actúa en relación con el tamaño de la fuente del elemento html (16px * 2 = 32px) */
+h1 {
+    font-size: 2rem ;
+}
+p {
+    font-size: 1rem;
+}
+
+span {
+    font-size: 1.2rem;
+}
+
+code {
+    font-size: .8rem;
+}
+
+
+
+
+/* estilos basicos */
+h1 {
+    margin: 0;
+    background-color: darken(tomato, 10%);
+    padding: 10px;
+    color: black;
+}
+
+div {
+    background-color: tomato;
+    padding: 20px;
+    color: white;
+}
+
+  p {
+    margin-top: 0;
+    line-height: 2rem;
+  }
+
+
+.important {
+    color: darken(white, 10%);
+    background-color: lighten(black, 10%);
+    padding: 20px;
+}
+
+
+code {
+    background-color: lighten(tomato, 20%);
+    border-radius: 5px;
+    padding: 4px 5px;
+    font-size: 1rem;
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
